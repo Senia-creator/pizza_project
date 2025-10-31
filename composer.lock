@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b03117f15f5eb97803082e95d573341d",
+    "content-hash": "8180fff29bfcb8c62b5a91e2d2931e5a",
     "packages": [
         {
             "name": "senya/pizza-store",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../pizza-store-library",

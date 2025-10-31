@@ -3,7 +3,12 @@
     "description": "Example project using pizza store library",
     "type": "project",
     "require": {
-        "senya/pizza-store": "dev-main"
+        "senya/pizza-store": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PizzaStoreProject\\": "src/"
+        }
     },
     "repositories": [
         {

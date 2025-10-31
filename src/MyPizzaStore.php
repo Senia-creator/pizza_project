@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace PizzaStoreProject;
 
 use PizzaStoreLibrary\PizzaStore;
 use PizzaStoreLibrary\Pizza;
@@ -16,7 +16,7 @@ class MyPizzaStore extends PizzaStore
             'margherita' => new MargheritaPizza(),
             'pepperoni' => new PepperoniPizza(),
             'vegetarian' => new VegetarianPizza(),
-            default => throw new InvalidArgumentException("Неизвестный тип пиццы: $type")
+            default => throw new \InvalidArgumentException("Неизвестный тип пиццы: $type")
         };
     }
 }

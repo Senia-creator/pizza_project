@@ -1,4 +1,9 @@
 <?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use PizzaStoreProject\MyPizzaStore;
+
 $pizzaStore = new MyPizzaStore();
 
 echo "Заказ пиццы Маргарита:" . PHP_EOL;
