@@ -7,7 +7,8 @@
     },
     "autoload": {
         "psr-4": {
-            "PizzaStoreProject\\": "src/"
+            "PizzaStoreProject\\": "src/",
+            "PizzaStoreProject\\Pizzas\\": "Pizzas/"
         }
     },
     "repositories": [

@@ -4,9 +4,9 @@ namespace PizzaStoreProject;
 
 use PizzaStoreLibrary\PizzaStore;
 use PizzaStoreLibrary\Pizza;
-use PizzaStoreLibrary\Pizzas\MargheritaPizza;
-use PizzaStoreLibrary\Pizzas\PepperoniPizza;
-use PizzaStoreLibrary\Pizzas\VegetarianPizza;
+use PizzaStoreProject\Pizzas\MargheritaPizza;
+use PizzaStoreProject\Pizzas\PepperoniPizza;
+use PizzaStoreProject\Pizzas\VegetarianPizza;
 
 class MyPizzaStore extends PizzaStore
 {

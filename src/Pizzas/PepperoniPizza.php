@@ -1,6 +1,6 @@
 <?php
 
-namespace PizzaStoreLibrary\Pizzas;
+namespace PizzaStoreProject\Pizzas;
 
 use PizzaStoreLibrary\Pizza;
 
