@@ -1,0 +1,14 @@
+{
+    "name": "senya/pizza-store-project",
+    "description": "Example project using pizza store library",
+    "type": "project",
+    "require": {
+        "senya/pizza-store": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../pizza-store-library"
+        }
+    ]
+}

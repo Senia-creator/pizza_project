@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b03117f15f5eb97803082e95d573341d",
+    "packages": [
+        {
+            "name": "senya/pizza-store",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../pizza-store-library",
+                "reference": "d456f302feeea319ee9df3bea5a045d20e4d2f88"
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.0",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PizzaStoreLibrary\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "PizzaStoreLibrary\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "check-code": [
+                    "vendor/bin/phpstan analyse",
+                    "vendor/bin/phpcs --standard=phpcs.xml src/"
+                ],
+                "fix-code": [
+                    "vendor/bin/phpcbf --standard=phpcs.xml src/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Pizza store library with factory pattern implementation",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "senya/pizza-store": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
