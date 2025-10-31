@@ -1,8 +1,4 @@
 <?php
-
-require_once __DIR__ . '/vendor/autoload.php';
-require_once __DIR__ . '/src/MyPizzaStore.php';
-
 $pizzaStore = new MyPizzaStore();
 
 echo "Заказ пиццы Маргарита:" . PHP_EOL;
